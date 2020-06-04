@@ -14,7 +14,7 @@ body {
 #logo-img {
   background: url(/image/logo_medium.jpg);
   width: 130px;
-  height: 180px;
+  height: 130px;
   margin: 20px 15px 20px 0px;
   border-radius: 20px;
   border: 0px;
@@ -113,18 +113,20 @@ body {
 }
 
 p {
+  display: block;
   text-align: center;
   font-size: 37px;
   color: #E7E7E7;
-  margin-top: 10%;
+
 }
 
 /*END HOME PAGE*/
 
 /********** Large devices only **********/
-@media (min-width: 1200px) {
-  background: url("/image/cat-1200.jpg") no-repeat;
-  height: 675px;
+@media (min-width: 1200px){ 
+.container .container__cat {
+  background: url('/image/cat-1200.jpg') no-repeat;
+  height: 558px;
 }
 }
 
@@ -135,7 +137,7 @@ p {
   #logo-img {
     background: url('/image/logo_smal.jpg') no-repeat;
     width: 87px;
-    height: 120px;
+    height: 87px;
     margin: 5px 15px 5px 0;
     border-radius: 10px;
   }
