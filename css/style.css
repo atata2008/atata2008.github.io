@@ -106,6 +106,15 @@ body {
 
 /* END HEADER */
 
+/* FOOTER */
+.footer {
+  margin: 20px 0;
+  padding-top: 15px;
+  font-size: 13px;
+  }
+
+/*end footer/
+
 /* HOME PAGE */
 .container .container__cat {
   box-shadow: 0 0 50px #58290a;
